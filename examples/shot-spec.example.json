@@ -1,0 +1,17 @@
+{
+  "prefix": "demo_s1_lock",
+  "seed": 2026112301,
+  "aspectRatio": "16:9 (Widescreen)",
+  "megapixels": 0.4,
+  "durationSec": 5,
+  "steps": 20,
+  "refImages": [
+    { "title": "Empty 16:9 Study Room (Pure Scene)", "file": "your_empty_scene_16x9.png" },
+    { "title": "Character A 3-View & Expressions Sheet", "file": "your_char_a_sheet.png" },
+    { "title": "Character B 3-View & Expressions Sheet", "file": "your_char_b_sheet.png" },
+    { "title": "White-Background Props Sheet", "file": "your_props_sheet.png" }
+  ],
+  "guides": [],
+  "audio": { "title": "Audio 1 - Character A Voice Reference", "file": "your_voice_a.mp3" },
+  "prompt": "subject_definitions:\n<Picture 1> is the pure character-free 16:9 sunlit study room empty scene reference — every piece of furniture stays spatially locked throughout the shot.\n<Picture 2> is the full turnaround 3-view character sheet of <Subject 1>.\n<Picture 3> is the full turnaround 3-view character sheet of <Subject 2>.\n<Picture 4> is the pure white-background prop design sheet.\n<Audio 1> is the bright playful Mandarin voice-timbre reference guiding (S1) <Subject 1>'s clear speech.\n\nsummary:\n[scene-locked full-character reference generation] Strictly preserving the exact room layout of <Picture 1>, a steady locked-off 35mm static shot frames <Subject 1> (<Picture 2>) excitedly pitching a grand plan while <Subject 2> (<Picture 3>) reacts in comical shock.\n\nretention_analysis:\n<Picture 1> (Empty Study Room): strictly_preserved - all room furniture stays 100% locked in place.\n<Subject 1> (<Picture 2>) & <Subject 2> (<Picture 3>): fully_preserved - expressive full-body animation faithful to both 3-view sheets.\n\ndetailed_description:\nThe target video is a vibrant, fluid 16:9 Japanese 2D cel-shaded comedy anime shot with rock-solid tripod camera stability and lively character performance.\n\n[Shot 1 | 0.00s-5.00s] Inside the sunlit study room of <Picture 1> (keeping all furniture stationary), a crisp steady locked-off 35mm static shot frames ONE single <Subject 1> (<Picture 2>) on the left slamming her hand proudly on the oak desk and gesturing enthusiastically while ONE single <Subject 2> (<Picture 3>) on the right leans back in wide-eyed comic alarm, maintaining crisp natural lip-sync on <Subject 1> throughout the full 5 seconds.\n(S1) <Subject 1> speaks clearly and cheerfully in <Audio 1>'s bright Mandarin voice: <d>[Chinese] 别拦我！今天咱们直接开启全自动动画制片！</d>\n\noverall_soundscape:\nCrisp wooden desk tap, light bouncy footsteps on wood floor, and warm sunlit room ambience.\n\nnon_diegetic_music:\nCheerful, upbeat Japanese comedy anime BGM at 134 BPM with snappy acoustic guitar and pizzicato strings mixed softly beneath the clear Mandarin voice."
+}
